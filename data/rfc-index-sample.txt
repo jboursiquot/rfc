@@ -1,0 +1,111 @@
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                             RFC INDEX
+                           -------------
+
+(CREATED ON: 04/27/2016.)
+
+This file contains citations for all RFCs in numeric order.
+
+RFC citations appear in this format:
+
+  ####  Title of RFC.  Author 1, Author 2, Author 3.  Issue date.
+        (Format: ASCII) (Obsoletes xxx) (Obsoleted by xxx) (Updates xxx)
+        (Updated by xxx) (Also FYI ####) (Status: ssssss) (DOI: ddd)
+
+or
+
+  ####  Not Issued.
+
+For example:
+
+  1129 Internet Time Synchronization: The Network Time Protocol. D.L.
+       Mills. October 1989. (Format: TXT=298, PS=551697, PDF=197036 bytes)
+       (Also RFC1119) (Status: INFORMATIONAL) (DOI: 10.17487/RFC1129)
+
+Key to citations:
+
+#### is the RFC number.
+
+Following the RFC number are the title, the author(s), and the
+publication date of the RFC.  Each of these is terminated by a period.
+
+Following the number are the title (terminated with a period), the
+author, or list of authors (terminated with a period), and the date
+(terminated with a period).
+
+The format and length follow in parenthesis.  One or more of the
+following alternative formats are listed:  ASCII text (TXT), PostScript
+(PS), and/or Adobe (PDF).  Each format is followed by an equals sign
+and the number of bytes for that version.  For example (Format:
+TXT=aaaaa, PS=bbbbbb bytes) shows that the ASCII text version is aaaaa
+bytes, and the PostScript version of the RFC is bbbbbb bytes.
+
+Obsoletes xxxx refers to other RFCs that this one replaces;
+Obsoleted by xxxx refers to RFCs that have replaced this one.
+Updates xxxx refers to other RFCs that this one merely updates but
+does not replace); Updated by xxxx refers to RFCs that have updated
+(but not replaced) this one.  Generally, only immediately succeeding
+and/or preceding RFCs are indicated, not the entire history of each
+related earlier or later RFC in a related series.
+
+The (Also FYI ##) or (Also STD ##) or (Also BCP ##) phrase gives the
+equivalent FYI, STD, or BCP number if the RFC is also in those
+document sub-series.  The Status field gives the document's
+current status (see RFC 2026).  The (DOI ddd) field gives the
+Digital Object Identifier.
+
+RFCs may be obtained in a number of ways, using HTTP, FTP, or email.
+See the RFC Editor Web page http://www.rfc-editor.org
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                RFC INDEX
+                                ---------
+
+
+
+0001 Host Software. S. Crocker. April 1969. (Format: TXT=21088 bytes)
+     (Status: UNKNOWN) (DOI: 10.17487/RFC0001)
+
+     0024 Documentation Conventions. J.F. Heafner, S.D. Crocker. November 1969. (Format:
+          TXT=3460 bytes) (Obsoletes RFC0016) (Updates RFC0010, RFC0016)
+          (Updated by RFC0027, RFC0030) (Status: UNKNOWN) (DOI:
+          10.17487/RFC0024)
+
+     0025 No High Link Numbers. S.D. Crocker. October 1969. (Format: TXT=479
+          bytes) (Status: UNKNOWN) (DOI: 10.17487/RFC0025)
+
+     0026 Not Issued.
+
+     0027 Documentation Conventions. S.D. Crocker. December 1969. (Format:
+          TXT=3661 bytes) (Updates RFC0010, RFC0016, RFC0024) (Updated by
+          RFC0030) (Status: UNKNOWN) (DOI: 10.17487/RFC0027)
+
+     0028 Time Standards. W.K. English. January 1970. (Format: TXT=557 bytes)
+          (Status: UNKNOWN) (DOI: 10.17487/RFC0028)
+
+     0029 Response to RFC 28. R.E. Kahn. January 1970. (Format: TXT=790 bytes)
+          (Also RFC0028) (Status: UNKNOWN) (DOI: 10.17487/RFC0029)
+
+     0030 Documentation Conventions. S.D. Crocker. February 1970. (Format:
+          TXT=4041 bytes) (Updates RFC0010, RFC0016, RFC0024, RFC0027)
+          (Status: UNKNOWN) (DOI: 10.17487/RFC0030)
+
+     0031 Binary Message Forms in Computer. D. Bobrow, W.R. Sutherland.
+          February 1968. (Format: TXT=11191 bytes) (Status: UNKNOWN) (DOI:
+          10.17487/RFC0031)
+
+     0032 Some Thoughts on SRI's Proposed Real Time Clock. J. Cole. February
+          1970. (Format: TXT=2216 bytes) (Status: UNKNOWN) (DOI:
+          10.17487/RFC0032)
+
+     0033 New Host-Host Protocol. S.D. Crocker. February 1970. (Format:
+          TXT=44167 bytes) (Obsoletes RFC0011) (Updated by RFC0036, RFC0047)
+          (Status: UNKNOWN) (DOI: 10.17487/RFC0033)
+
+     0034 Some Brief Preliminary Notes on the Augmentation Research Center
+          Clock. W.K. English. February 1970. (Format: TXT=2534 bytes)
+          (Status: UNKNOWN) (DOI: 10.17487/RFC0034)

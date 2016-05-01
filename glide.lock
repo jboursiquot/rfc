@@ -1,0 +1,6 @@
+hash: 623018cc817ed9c64d54bb2c2af2177d921b9e46e73c9ae9ea0e41389f634717
+updated: 2016-04-30T21:20:17.522250993-04:00
+imports:
+- name: github.com/metakeule/fmtdate
+  version: 427373e7d2f8fcaa70a83e289c15fb3618a945bc
+devImports: []

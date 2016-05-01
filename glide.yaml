@@ -1,0 +1,3 @@
+package: github.com/jboursiquot/rfc
+import:
+- package: github.com/metakeule/fmtdate
