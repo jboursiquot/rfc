@@ -43,7 +43,7 @@ var (
 )
 
 func main() {
-	file, err := os.Open("./tmp/rfc-index-sample.txt")
+	file, err := os.Open("./data/rfc-index-sample.txt")
 	if err != nil {
 		log.Fatalf("Error opening file: %s", err)
 	}
