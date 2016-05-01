@@ -67,8 +67,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 
 
-0001 Host Software. S. Crocker. April 1969. (Format: TXT=21088 bytes)
-     (Status: UNKNOWN) (DOI: 10.17487/RFC0001)
+     0001 Host Software. S. Crocker. April 1969. (Format: TXT=21088 bytes)
+          (Status: UNKNOWN) (DOI: 10.17487/RFC0001)
 
      0024 Documentation Conventions. J.F. Heafner, S.D. Crocker. November 1969. (Format:
           TXT=3460 bytes) (Obsoletes RFC0016) (Updates RFC0010, RFC0016)
