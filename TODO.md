@@ -2,9 +2,9 @@
 
 ## Done
 - [x] Parse data coming from http://www.ietf.org/download/rfc-index.txt into list of RFCs
+- [x] Handle multiple `Format` extension and lengths (e.g.`(Format: TXT=aaaaa, PS=bbbbbb bytes)`)
 
 ## Next Up
-- [ ] Handle multiple `Format` extension and lengths (e.g.`(Format: TXT=aaaaa, PS=bbbbbb bytes)`)
 - [ ] Understand the metadata and the kinds of relationships that exist in it
 
 ## Possibilities

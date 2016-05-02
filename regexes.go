@@ -17,6 +17,7 @@ const (
 	formatExpr       = `(\(Format:\s(TXT|PS|PDF)=([0-9]*)\sbytes\))`
 	formatExtExpr    = `(TXT|PS|PDF)`
 	formatLenExpr    = `[0-9]{1,}`
+	formatExtLenExpr = `(TXT|PS|PDF)=([0-9]*)`
 	statusExpr       = `(\(Status:\s([a-zA-Z]*)\))`
 	doiExpr          = `(\(DOI:\s([a-zA-Z0-9./]*\)))`
 	alsoExpr         = `\((Also\s([(RFC|FYI|STD|BCP)0-9]*))\)`
@@ -59,14 +60,22 @@ func parseIssueDate(line string) (time.Time, error) {
 	return fmtdate.Parse("MMMM YYYY", dateStr)
 }
 
-func parseFormatAndLength(line string) (string, int) {
+func parseFormats(line string) []Format {
 	var str string
 	if str = regexp.MustCompile(formatExpr).FindString(line); str == "" {
-		return unspecified, 0
+		return make([]Format, 0)
 	}
-	ext := regexp.MustCompile(formatExtExpr).FindString(str)
-	length, _ := strconv.Atoi(regexp.MustCompile(formatLenExpr).FindString(str))
-	return ext, length
+
+	matches := regexp.MustCompile(formatExtLenExpr).FindAllString(str, -1)
+
+	var formats []Format
+	for _, f := range matches {
+		s := strings.Split(f, "=")
+		bytes, _ := strconv.ParseInt(s[1], 10, 64)
+		formats = append(formats, Format{Extension: s[0], Bytes: bytes})
+	}
+
+	return formats
 }
 
 func parseDOI(line string) string {

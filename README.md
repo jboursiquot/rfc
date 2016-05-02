@@ -48,18 +48,18 @@ Side project to understand the history of RFCs published at http://www.ietf.org/
 ### To a parsed and structured version
 
 ```
-{ID=1129, Title=Internet Time Synchronization: The Network Time Protocol, Authors=D.L. Mills, IssueDate=October 1989, Format=UNSPECIFIED, Length=0 bytes, Status=INFORMATIONAL}
-{ID=0001, Title=Host Software, Authors=S. Crocker, IssueDate=April 1969, Format=TXT, Length=21088 bytes, Status=UNKNOWN}
-{ID=0024, Title=Documentation Conventions, Authors=J.F. Heafner, S.D. Crocker, IssueDate=November 1969, Format=TXT, Length=3460 bytes, Status=UNKNOWN}
-{ID=0025, Title=No High Link Numbers, Authors=S.D. Crocker, IssueDate=October 1969, Format=TXT, Length=479 bytes, Status=UNKNOWN}
-{ID=0027, Title=Documentation Conventions, Authors=S.D. Crocker, IssueDate=December 1969, Format=TXT, Length=3661 bytes, Status=UNKNOWN}
-{ID=0028, Title=Time Standards, Authors=W.K. English, IssueDate=January 1970, Format=TXT, Length=557 bytes, Status=UNKNOWN}
-{ID=0029, Title=Response to RFC 28, Authors=R.E. Kahn, IssueDate=January 1970, Format=TXT, Length=790 bytes, Status=UNKNOWN}
-{ID=0030, Title=Documentation Conventions, Authors=S.D. Crocker, IssueDate=February 1970, Format=TXT, Length=4041 bytes, Status=UNKNOWN}
-{ID=0031, Title=Binary Message Forms in Computer, Authors=D. Bobrow, W.R. Sutherland, IssueDate=February 1968, Format=TXT, Length=11191 bytes, Status=UNKNOWN}
-{ID=0032, Title=Some Thoughts on SRI's Proposed Real Time Clock, Authors=J. Cole, IssueDate=February 1970, Format=TXT, Length=2216 bytes, Status=UNKNOWN}
-{ID=0033, Title=New Host-Host Protocol, Authors=S.D. Crocker, IssueDate=February 1970, Format=TXT, Length=44167 bytes, Status=UNKNOWN}
-{ID=0034, Title=Some Brief Preliminary Notes on the Augmentation Research Center Clock, Authors=W.K. English, IssueDate=February 1970, Format=TXT, Length=2534 bytes, Status=UNKNOWN}
+{ID=1129, Title=Internet Time Synchronization: The Network Time Protocol, Authors=D.L. Mills, IssueDate=October 1989, Formats=[], Status=INFORMATIONAL}
+{ID=0001, Title=Host Software, Authors=S. Crocker, IssueDate=April 1969, Formats=[Format {Extension=TXT, Bytes=21088}], Status=UNKNOWN}
+{ID=0024, Title=Documentation Conventions, Authors=J.F. Heafner, S.D. Crocker, IssueDate=November 1969, Formats=[Format {Extension=TXT, Bytes=3460}], Status=UNKNOWN}
+{ID=0025, Title=No High Link Numbers, Authors=S.D. Crocker, IssueDate=October 1969, Formats=[Format {Extension=TXT, Bytes=479}], Status=UNKNOWN}
+{ID=0027, Title=Documentation Conventions, Authors=S.D. Crocker, IssueDate=December 1969, Formats=[Format {Extension=TXT, Bytes=3661}], Status=UNKNOWN}
+{ID=0028, Title=Time Standards, Authors=W.K. English, IssueDate=January 1970, Formats=[Format {Extension=TXT, Bytes=557}], Status=UNKNOWN}
+{ID=0029, Title=Response to RFC 28, Authors=R.E. Kahn, IssueDate=January 1970, Formats=[Format {Extension=TXT, Bytes=790}], Status=UNKNOWN}
+{ID=0030, Title=Documentation Conventions, Authors=S.D. Crocker, IssueDate=February 1970, Formats=[Format {Extension=TXT, Bytes=4041}], Status=UNKNOWN}
+{ID=0031, Title=Binary Message Forms in Computer, Authors=D. Bobrow, W.R. Sutherland, IssueDate=February 1968, Formats=[Format {Extension=TXT, Bytes=11191}], Status=UNKNOWN}
+{ID=0032, Title=Some Thoughts on SRI's Proposed Real Time Clock, Authors=J. Cole, IssueDate=February 1970, Formats=[Format {Extension=TXT, Bytes=2216}], Status=UNKNOWN}
+{ID=0033, Title=New Host-Host Protocol, Authors=S.D. Crocker, IssueDate=February 1970, Formats=[Format {Extension=TXT, Bytes=44167}], Status=UNKNOWN}
+{ID=0034, Title=Some Brief Preliminary Notes on the Augmentation Research Center Clock, Authors=W.K. English, IssueDate=February 1970, Formats=[Format {Extension=TXT, Bytes=2534}], Status=UNKNOWN}
 ```
 
 More to come. See [TODO](./TODO.md)

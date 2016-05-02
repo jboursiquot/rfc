@@ -18,8 +18,7 @@ type RFC struct {
 	Title       string
 	Authors     []string
 	IssueDate   time.Time
-	Format      string
-	Length      int
+	Formats     []Format
 	Status      string
 	DOI         string
 	Also        []string
@@ -31,8 +30,18 @@ type RFC struct {
 
 func (rfc RFC) String() string {
 	return fmt.Sprintf(
-		"RFC {ID=%s, Title=%s, Authors=%s, IssueDate=%s, Format=%s, Length=%d bytes, Status=%s}",
-		rfc.ID, rfc.Title, strings.Join(rfc.Authors, ", "), fmtdate.Format("MMMM YYYY", rfc.IssueDate), rfc.Format, rfc.Length, rfc.Status)
+		"RFC {ID=%s, Title=%s, Authors=%s, IssueDate=%s, Formats=%v, Status=%s}",
+		rfc.ID, rfc.Title, strings.Join(rfc.Authors, ", "), fmtdate.Format("MMMM YYYY", rfc.IssueDate), rfc.Formats, rfc.Status)
+}
+
+// Format includes extention and size in bytes
+type Format struct {
+	Extension string
+	Bytes     int64
+}
+
+func (f Format) String() string {
+	return fmt.Sprintf("Format {Extension=%s, Bytes=%d}", f.Extension, f.Bytes)
 }
 
 var (
@@ -136,7 +145,7 @@ func parseLineSet() {
 		ObsoletedBy: parseList(line, "Obsoleted by", obsoletedByExpr),
 	}
 	rfc.Title, rfc.Authors = parseTitleAndAuthors(line)
-	rfc.Format, rfc.Length = parseFormatAndLength(line)
+	rfc.Formats = parseFormats(line)
 
 	var err error
 	if rfc.IssueDate, err = parseIssueDate(line); err != nil {
