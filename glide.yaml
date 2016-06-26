@@ -1,3 +1,4 @@
 package: github.com/jboursiquot/rfc
 import:
 - package: github.com/metakeule/fmtdate
+- package: github.com/docopt/docopt-go
